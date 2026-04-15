@@ -26,7 +26,7 @@ export default function ProductPage() {
     }
     if (id) fetchData();
   }, [id]);
-
+  
   if (!product) return <p>Loading...</p>;
 
   const availableSizes = Array.isArray(product.sizes)
