@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <LikeProvider>
           <CartProvider>
-          {children} {/* /savat va /shoes/[id] ham shu yerda */}
+          {children} 
         </CartProvider>
         </LikeProvider>
         
